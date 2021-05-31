@@ -27,8 +27,8 @@ CHECK_NET_INTERVAL_MS = 1000  # 網路檢查間隔時間
 # MQTT 相關設定
 MQTT_BROKER = "io.adafruit.com"
 PORT = 1883
-MQTT_USERNAME = "Zack_Huang"
-MQTT_PASSWORD = "aio_qSHn6124VV8tzsI24EilhIm5joIz"
+MQTT_USERNAME = "<YOUR USERNAME>"
+MQTT_PASSWORD = "<YOUR AIO KEY>"
 TEMP_TOPIC = MQTT_USERNAME + "/feeds/pico.temperature"
 HUM_TOPIC = MQTT_USERNAME + "/feeds/pico.humidity"
 LED_TOPIC = MQTT_USERNAME + "/feeds/pico.led"
